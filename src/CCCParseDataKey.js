@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         CCC后台数据名字显示
-// @namespace    http://tampermonkey.net/
+// @namespace    Violentmonkey Scripts
 // @version      0.1
 // @description  try to take over the world!
 // @author       hjw

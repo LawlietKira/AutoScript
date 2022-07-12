@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         git自动填审核者
-// @namespace    http://tampermonkey.net/
+// @namespace    Violentmonkey Scripts
 // @version      0.1
 // @description  try to take over the world!
 // @author       hjw
@@ -21,7 +21,7 @@
         }, 100)
     }
     $('.assign-to-me-link').trigger('click')
-    //$('#merge_request_force_remove_source_branch').attr('checked', false)
+    // $('#merge_request_force_remove_source_branch').attr('checked', false)
     //$('.dropdown-menu-reviewer').find('li[data-user-id=17] a').trigger('click')
     let a = $('.merge-request-reviewer .dropdown')
     a.children().trigger('click')
